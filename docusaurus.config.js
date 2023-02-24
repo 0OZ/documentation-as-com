@@ -24,12 +24,13 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'de',
-    locales: ['en'],
+    locales: ['de'],
   },
 
   presets: [
@@ -63,8 +64,13 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: 'My Site',
+        title: 'auftrag-select.com Dokumentation',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -122,7 +128,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/0oz',
               },
             ],
           },
