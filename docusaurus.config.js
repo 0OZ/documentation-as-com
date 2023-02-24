@@ -70,7 +70,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'auftrag-select.com Dokumentation',
+        title: 'Dokumentation',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
